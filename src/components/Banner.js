@@ -20,8 +20,10 @@ const Banner = () => {
             <h1>
               Hi I'm EDGAR <span>DAVILA</span>
             </h1>
-            <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold
-              uppercase leading-[1]">
+            <div
+              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold
+              uppercase leading-[1]"
+            >
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
@@ -39,7 +41,12 @@ const Banner = () => {
                 wrapper="span"
                 repeat={Infinity}
               />
-              <p></p>
+              <p>
+                I’m a Full Stack Web Developer originally from Puerto Rico with
+                a background in JavaScript, NodeJS, React, and GCP & MongoDB.
+                Experienced in creating efficient and scalable web applications
+                using modern web development frameworks and libraries.
+              </p>
             </div>
           </div>
           {/* Image */}
