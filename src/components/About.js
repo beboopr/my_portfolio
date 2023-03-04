@@ -44,16 +44,16 @@ const About = () => {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={5} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Years of <br /> Experience
+                  Months of <br /> Experience
                 </div>
               </div>
               {/* stats 2 */}
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={11} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={5} duration={3} /> : null}
                   {/* k+  for 15k  */}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -63,7 +63,7 @@ const About = () => {
               {/* stats 3 */}
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={11} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={5} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br /> Clients
