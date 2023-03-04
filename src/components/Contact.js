@@ -26,6 +26,7 @@ const Contact = () => {
           </motion.div>
           {/* form */}
           <motion.form
+            action="mailto: edgar.davila1997@hotmail.com"
             variants={fadeIn("left", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -43,10 +44,15 @@ const Contact = () => {
               placeholder="Your email"
             />
             <textarea
+              method="POST"
+              action="mailto: edgar.davila1997@hotmail.com"
+              enctype="multipart/form-data"
               className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
               placeholder="Your message"
             ></textarea>
-            <button className="btn btn-lg">Send message</button>
+            <button className="btn btn-lg" type="submit" value="Send Email">
+              Send message
+            </button>
           </motion.form>
         </div>
       </div>
